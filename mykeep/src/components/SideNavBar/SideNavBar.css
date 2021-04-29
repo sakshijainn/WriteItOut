@@ -1,0 +1,113 @@
+.sidenavbar
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 240px;
+    background-color: black;
+    color: wheat;
+    height: 100%;
+}
+.sidenavbar_top
+{
+    flex:1;
+
+}
+.sidenavbar_profile
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.profile
+{
+    background: lightcoral;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title 
+{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-left: 10px;
+
+}
+
+.icon 
+{
+    margin:0 10px;
+    font-size: 12px;
+}
+.sidenavbar_search
+{
+    padding: 18px;
+}
+
+.searchbar 
+{
+    display: flex;
+    align-items: center;
+    background: #404040;
+    padding:10px 10px;
+    border-radius: 50px;
+
+}
+
+input 
+{
+    color: white;
+    outline: none;
+    border: none;
+    background: none;
+    margin-left: 12px;
+}
+
+.sidenavbar_createNote
+{
+    padding: 0 15px;
+    color: white;
+}
+.createNote 
+{
+    display: flex;
+    background: lightcoral;
+    align-items: center;
+    border-radius: 40px;
+    padding: 8px 10px;
+}
+.note 
+{
+    margin-left: 12px;
+}
+
+.sidenavbar-menu
+{
+    margin-top: 12px;
+   
+}
+
+
+.sidenavbar-menu ul  li
+{
+        display: flex;
+        align-items: center;
+        padding: 10px 18px;
+        color: lightgreen;
+        text-decoration: none;
+        margin-left: 14px;
+       
+}
+.iconn 
+{
+    margin-right: 13px;
+    font-size: 18px;
+    
+}
